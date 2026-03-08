@@ -1,0 +1,102 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment and secrets (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+credentials.json
+token.json
+token.pickle
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node.js (for MCP servers)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# Social media session data (contains auth cookies — NEVER COMMIT)
+config/meta_session/
+config/linkedin_session/
+config/whatsapp_session/
+config/twitter_session/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs (keep structure, ignore contents)
+vault/Logs/**/*.md
+!vault/Logs/**/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# UV lock file (optional - some teams commit this)
+# uv.lock
+
+
+# === SECRETS — NEVER push these ===
+config/.env
+config/token.json
+config/credentials.json
+
+# Session folders (contain auth cookies)
+config/whatsapp_session/
+config/meta_session/
+config/linkedin_session/
+config/twitter_session/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+
+# Lock files
+config/.orchestrator.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs (optional — can be large)
+vault/Logs/errors/
+vault/Logs/actions/
+
+# Debug screenshots
+vault/Logs/debug_screenshot_*.png

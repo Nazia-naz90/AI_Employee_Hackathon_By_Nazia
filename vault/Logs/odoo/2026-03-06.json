@@ -1,0 +1,61 @@
+{
+  "date": "2026-03-06",
+  "entries": [
+    {
+      "timestamp": "2026-03-06T19:13:50Z",
+      "correlation_id": "5ff4e1fa-0e40-4aee-8580-5f2ed90e343d",
+      "actor": "action_executor",
+      "action_type": "create_invoice",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_invoice_id": 1,
+        "odoo_invoice_ref": "INV/2026/00001",
+        "customer_id": 7,
+        "customer_name": "Lucky Textile Mills 4",
+        "invoice_date": "2026-03-07",
+        "line_count": 1,
+        "estimated_total": 900.0,
+        "source_file": "ODOO_INVOICE_2026-02-22_E2E.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-06T19:29:12Z",
+      "correlation_id": "3003f7a4-9375-42ef-9293-288ac51656c5",
+      "actor": "action_executor",
+      "action_type": "create_invoice",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_invoice_id": 2,
+        "odoo_invoice_ref": "INV/2026/00002",
+        "customer_id": 8,
+        "customer_name": "Naz Textile Mills",
+        "invoice_date": "2026-03-07",
+        "line_count": 2,
+        "estimated_total": 1450.0,
+        "source_file": "ODOO_INVOICE_EXAMPLE.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-06T20:05:15Z",
+      "correlation_id": "ac856490-9560-40f3-9ba6-d50915cab8dd",
+      "actor": "action_executor",
+      "action_type": "create_payment",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_payment_id": 1,
+        "invoice_id": 2,
+        "amount": 1450.0,
+        "payment_date": "2026-03-07",
+        "journal_id": 6,
+        "memo": "cash",
+        "source_file": "ODOO_PAYMENT_TEMPLATE.md",
+        "dev_mode": false
+      }
+    }
+  ]
+}
