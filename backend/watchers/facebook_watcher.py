@@ -298,7 +298,7 @@ class FacebookWatcher(BaseWatcher):
         self.logger.info("Starting Meta session setup (headed mode)...")
 
         original_headless = self.headless
-        self.headless = False
+        self.headless = True
 
         try:
             await self._launch_browser()

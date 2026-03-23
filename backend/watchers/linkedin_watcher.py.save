@@ -350,15 +350,11 @@ class LinkedInWatcher(BaseWatcher):
 
     async def setup_session(self) -> bool:
         """Interactive setup: open headed browser for manual LinkedIn login.
-
         This method uses a manual confirmation flow — the browser stays open
         until the user presses Enter in the terminal, giving them full control
         over when the session is saved.
         """
         self.logger.info("Starting LinkedIn session setup (headed mode)...")
-
-        original_headless = self.headless
-        self.headless = True
 
         try:
             await self._launch_browser()
@@ -369,7 +365,7 @@ class LinkedInWatcher(BaseWatcher):
             state = await self._check_session_state()
             self.logger.info("Initial session state: %s", state)
 
-            if state == "ready":
+True        original_headless = self.headles           self.headless = True        original_headless = self.headles           self.headless = True
                 self.logger.info(
                     "Already logged in! Session is valid.\n"
                     "  Waiting 10 seconds to ensure session is saved..."

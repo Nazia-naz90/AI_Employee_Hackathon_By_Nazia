@@ -1,0 +1,329 @@
+INFO:__main__:Health monitor running on port 8080
+Traceback (most recent call last):
+  File "/home/ubuntu/ai-employee/cloud/health_monitor.py", line 92, in <module>
+    main()
+    ~~~~^^
+  File "/home/ubuntu/ai-employee/cloud/health_monitor.py", line 88, in main
+    server.serve_forever()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 235, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/selectors.py", line 398, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+INFO:__main__:Health monitor running on port 8080
+Traceback (most recent call last):
+  File "/home/ubuntu/ai-employee/cloud/health_monitor.py", line 92, in <module>
+    main()
+    ~~~~^^
+  File "/home/ubuntu/ai-employee/cloud/health_monitor.py", line 88, in main
+    server.serve_forever()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 235, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/selectors.py", line 398, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+INFO:__main__:Health monitor running on port 8080
+Traceback (most recent call last):
+  File "/home/ubuntu/ai-employee/cloud/health_monitor.py", line 92, in <module>
+    main()
+    ~~~~^^
+  File "/home/ubuntu/ai-employee/cloud/health_monitor.py", line 86, in main
+    server = HTTPServer(("0.0.0.0", PORT), HealthHandler)
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 453, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+                                self.socket_type)
+                                ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 233, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+INFO:__main__:Health monitor running on port 8080
+----------------------------------------
+Exception occurred during processing of request from ('185.93.89.193', 13203)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('185.93.89.191', 56381)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('45.79.207.129', 56674)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('45.79.115.134', 36272)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('45.33.14.5', 58276)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.193', 3620)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('66.132.172.221', 34898)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.118', 9400)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('199.45.155.100', 1582)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('66.228.62.150', 46917)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('45.33.109.18', 59021)
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/http/server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------

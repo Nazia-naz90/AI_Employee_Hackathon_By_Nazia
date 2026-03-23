@@ -299,7 +299,7 @@ class WhatsAppWatcher(BaseWatcher):
 
         # Force headed mode for setup
         original_headless = self.headless
-        self.headless = False
+        self.headless = True
 
         try:
             await self._launch_browser()

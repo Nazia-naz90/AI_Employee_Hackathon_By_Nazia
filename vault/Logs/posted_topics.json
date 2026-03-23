@@ -87,6 +87,38 @@
       "template_id": "career_question_01",
       "draft_path": "vault\\Pending_Approval\\LINKEDIN_POST_2026-03-07.md",
       "generated_at": "2026-03-07T00:13:30+05:00"
+    },
+    {
+      "date": "2026-03-08",
+      "topic_index": 5,
+      "topic_title": "AI and Automation",
+      "template_id": "twitter_ai_01",
+      "draft_path": "vault/Pending_Approval/TWITTER_POST_2026-03-08.md",
+      "generated_at": "2026-03-08T07:21:21+05:00"
+    },
+    {
+      "date": "2026-03-20",
+      "topic_index": 0,
+      "topic_title": "AI and Automation",
+      "template_id": "ai_auto_tip_01",
+      "draft_path": "vault/Pending_Approval/LINKEDIN_POST_2026-03-20.md",
+      "generated_at": "2026-03-20T06:57:36+05:00"
+    },
+    {
+      "date": "2026-03-21",
+      "topic_index": 1,
+      "topic_title": "Backend Development",
+      "template_id": "backend_announce_01",
+      "draft_path": "vault/Pending_Approval/LINKEDIN_POST_2026-03-21.md",
+      "generated_at": "2026-03-21T01:41:18+05:00"
+    },
+    {
+      "date": "2026-03-23",
+      "topic_index": 2,
+      "topic_title": "Hackathon Journey",
+      "template_id": "hackathon_announce_01",
+      "draft_path": "vault/Pending_Approval/LINKEDIN_POST_2026-03-23.md",
+      "generated_at": "2026-03-23T22:44:11+05:00"
     }
   ]
 }
