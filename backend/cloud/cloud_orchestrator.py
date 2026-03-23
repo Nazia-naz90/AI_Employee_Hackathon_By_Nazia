@@ -1,4 +1,4 @@
-import contextlib
+from __future__ import annotations
 import contextlib
 """Cloud Orchestrator — extends base Orchestrator for cloud deployment.
 
@@ -13,7 +13,6 @@ LocalOrchestrator:
   - Owns WhatsApp session, payments, final execution
 """
 
-from __future__ import annotations
 
 import asyncio
 import logging
