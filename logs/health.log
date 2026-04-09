@@ -850,3 +850,15 @@ Traceback (most recent call last):
            ~~~~~~~~~~~~~~~~~~~~^^^
 KeyboardInterrupt
 INFO:__main__:Health monitor running on port 8080
+Traceback (most recent call last):
+  File "/home/ubuntu/ai-employee/cloud/health_monitor.py", line 92, in <module>
+    main()
+    ~~~~^^
+  File "/home/ubuntu/ai-employee/cloud/health_monitor.py", line 88, in main
+    server.serve_forever()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/socketserver.py", line 235, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/home/ubuntu/.local/share/uv/python/cpython-3.13.12-linux-x86_64-gnu/lib/python3.13/selectors.py", line 398, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
