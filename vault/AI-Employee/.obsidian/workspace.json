@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "241efa033228700f",
+    "id": "fdeb1c5ba6af490b",
     "type": "split",
     "children": [
       {
-        "id": "ffc886b53242ff98",
+        "id": "0186afc153f132a4",
         "type": "tabs",
         "children": [
           {
-            "id": "3205a9d650945a20",
+            "id": "95a665586720ab59",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "acad5482ec2a3d21",
+    "id": "264f3ab60ea94a46",
     "type": "split",
     "children": [
       {
-        "id": "4199f535fe0c309e",
+        "id": "510e056c2dc8f819",
         "type": "tabs",
         "children": [
           {
-            "id": "873d21030aa1860e",
+            "id": "3e48d6fd202fcacb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,13 +44,13 @@
             }
           },
           {
-            "id": "548721e7ce972be3",
+            "id": "afddfcfc42479de4",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "c97bccd66347fb34",
+            "id": "e02621908fd54d3f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -70,27 +70,27 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 221.50379180908203
+    "width": 300
   },
   "right": {
-    "id": "f6e7e0306e5ba015",
+    "id": "66974666a8fd8f70",
     "type": "split",
     "children": [
       {
-        "id": "bbb46b89150a52a3",
+        "id": "ae7a1c92c5ed346b",
         "type": "tabs",
         "children": [
           {
-            "id": "e017cdb70b38d741",
+            "id": "b80de2f0724c7bde",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,24 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Welcome"
             }
           },
           {
-            "id": "4743b73809a9ca8c",
+            "id": "7067bcb66bb9433c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "2cd4f1b59e9f7cc8",
+            "id": "d65f23497406ed21",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,7 +133,7 @@
             }
           },
           {
-            "id": "c3582915bbaabc4a",
+            "id": "19f11e89128323e1",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -146,17 +147,18 @@
             }
           },
           {
-            "id": "eedf7510995e1036",
+            "id": "7afcdbeef161478f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Welcome"
             }
           }
         ]
@@ -177,49 +179,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "3205a9d650945a20",
+  "active": "95a665586720ab59",
   "lastOpenFiles": [
-    "Untitled.base",
+    "Welcome.md",
     "Untitled.canvas",
-    "2026-04-10.md",
-    "Done/whatsapp-reply-nazia-zong-20260403T005644.md",
-    "whatsapp-reply-nazia-zong-20260403T005408.md",
-    "AI-Employee/whatsapp-reply-nazia-zong-20260403T005634.md",
-    "Approved/whatsapp-reply-nazia-zong-20260403T005644.md",
-    "Pending_Approval/whatsapp-reply-nazia-zong-20260403T005659.md",
-    "Needs_Action/WHATSAPP_nazia-zong_20260403T005347.md",
-    "Logs/debug_feed_after_post.png",
-    "AI-Employee/2026-04-03.md",
-    "Dashboard.md",
-    "AI-Employee/create a link.md",
-    "AI-Employee/Untitled.canvas",
-    "AI-Employee/Welcome.md",
-    "AI-Employee",
-    "Logs/debug_screenshot_tw_tw_messages_auth_fail.png",
-    "Logs/debug_screenshot_tw_notifications_auth_fail.png",
-    "Logs/debug_screenshot_notifications_auth_fail.png",
-    "Logs/debug_screenshot_messaging_auth_fail.png",
-    "Logs/debug_screenshot_ig_ig_dms_auth_fail.png",
-    "Logs/debug_screenshot_fb_notifications_auth_fail.png",
-    "Logs/debug_screenshot_fb_fb_notifications_empty.png",
-    "Logs/debug_screenshot_fb_fb_messages_auth_fail.png",
-    "Logs/debug_replier_not_logged_in.png",
-    "Briefings/2026-02-24_Monday_Briefing.md",
-    "Done/LINKEDIN_POST_2026-03-07.md",
-    "Approved/LINKEDIN_razia-fatima_20260306T191522.md",
-    "Needs_Action/email-welcome-to-claude-let-s-get-started-20260306T191351.md",
-    "Needs_Action/FACEBOOK_metropolis-education-system_20260306T200128.md",
-    "Needs_Action/email-get-better-results-with-prompt-engineering-20260306T191351.md",
-    "Needs_Action/email-railway-agent-skill-cli-dashboard-updates-docs-fee-20260306T191351.md",
-    "Needs_Action/email-re-hello-20260306T191351.md",
-    "Approved/LINKEDIN_POST_2026-03-23.md",
-    "Approved/LINKEDIN_POST_2026-03-20.md",
-    "Briefings/2026-03-23_Monday_Briefing.md",
-    "Pending_Approval/LINKEDIN_POST_2026-03-20.md",
-    "Needs_Action/email-re-hello-urgent-message-20260306T191351.md",
-    "Needs_Action/email-deploy-to-railway-with-claude-codex-cursor-and-mor-20260306T191351.md",
-    "Logs/actions/2026-02-19.json",
-    "Logs/actions/2026-02-18.json",
-    "Logs/actions/2026-02-17.json"
+    "create a link.md",
+    "2026-04-03.md"
   ]
 }

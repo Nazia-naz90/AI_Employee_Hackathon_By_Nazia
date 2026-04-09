@@ -365,7 +365,7 @@ class LinkedInWatcher(BaseWatcher):
             state = await self._check_session_state()
             self.logger.info("Initial session state: %s", state)
 
-True        original_headless = self.headles           self.headless = True        original_headless = self.headles           self.headless = True
+True        original_headless = self.headles           self.headless = False        original_headless = self.headles           self.headless = False
                 self.logger.info(
                     "Already logged in! Session is valid.\n"
                     "  Waiting 10 seconds to ensure session is saved..."

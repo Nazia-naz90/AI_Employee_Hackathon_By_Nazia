@@ -358,7 +358,7 @@ class LinkedInWatcher(BaseWatcher):
         self.logger.info("Starting LinkedIn session setup (headed mode)...")
 
         original_headless = self.headless
-        self.headless = True
+        self.headless = False
 
         try:
             await self._launch_browser()

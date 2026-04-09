@@ -212,7 +212,7 @@ class WhatsAppWatcher(BaseWatcher):
         self.logger.debug("Waiting for initial page elements...")
         await self._page.wait_for_selector(
             f'{CHAT_LOADED_SELECTOR}, {SELECTORS["qr_code"]}, {SELECTORS["qr_code_fallback"]}',
-            timeout=60000,
+            timeout=300000,
         )
         self.logger.debug("Initial page element found, waiting for full render...")
 
@@ -299,7 +299,7 @@ class WhatsAppWatcher(BaseWatcher):
 
         # Force headed mode for setup
         original_headless = self.headless
-        self.headless = True
+        self.headless = False
 
         try:
             await self._launch_browser()

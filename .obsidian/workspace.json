@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "27fb3e569407bee8",
+        "id": "baffaf7570126c76",
         "type": "tabs",
         "children": [
           {
-            "id": "28aafdb523e21462",
+            "id": "b04296642aa80125",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -176,7 +176,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "28aafdb523e21462",
+  "active": "b04296642aa80125",
   "lastOpenFiles": [
     "config/gmail_config.json",
     "skills/gmail-watcher/references/gmail_config_schema.md",
