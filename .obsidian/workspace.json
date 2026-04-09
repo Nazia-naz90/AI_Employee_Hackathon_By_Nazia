@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "baffaf7570126c76",
+        "id": "28ffeda71dbfa157",
         "type": "tabs",
         "children": [
           {
-            "id": "b04296642aa80125",
+            "id": "ee08f205df0ee66e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -173,10 +173,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b04296642aa80125",
+  "active": "ee08f205df0ee66e",
   "lastOpenFiles": [
     "config/gmail_config.json",
     "skills/gmail-watcher/references/gmail_config_schema.md",
