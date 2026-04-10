@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33d7cff0cf2780c5",
+        "id": "db05d190f50fc8c7",
         "type": "tabs",
         "children": [
           {
-            "id": "faebbd9395538078",
+            "id": "03165a6dd6ca3065",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,7 +177,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "faebbd9395538078",
+  "active": "873d21030aa1860e",
   "lastOpenFiles": [
     "Approved/LINKEDIN_POST_2026-03-23.md",
     "conflict-files-obsidian-git.md",
