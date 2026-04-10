@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "28ffeda71dbfa157",
+        "id": "1d5e754f6b60a1da",
         "type": "tabs",
         "children": [
           {
-            "id": "ee08f205df0ee66e",
+            "id": "b31eabf8c005226b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -70,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,12 +159,12 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,8 +178,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee08f205df0ee66e",
+  "active": "b31eabf8c005226b",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Untitled 1.base",
+    "2026-04-10.md",
+    "Untitled.canvas",
+    "Untitled.base",
+    "vault/Approved/LINKEDIN_POST_2026-03-23.md",
+    "vault/Needs_Action/email-welcome-to-claude-let-s-get-started-20260409T173025.md",
+    "vault/Needs_Action/email-trial-plan-alert-20260409T173025.md",
+    "vault/Needs_Action/email-start-collecting-referral-credits-20260409T173025.md",
+    "vault/Needs_Action/email-security-alert-20260409T173025.md",
+    "vault/Needs_Action/email-re-hello-urgent-message-20260409T173025.md",
+    "vault/Needs_Action/email-re-hello-20260409T173025.md",
+    "vault/Needs_Action/email-railway-agent-skill-cli-dashboard-updates-docs-fee-20260409T173025.md",
+    "vault/Needs_Action/email-get-better-results-with-prompt-engineering-20260409T173025.md",
+    "vault/Needs_Action/email-deploy-to-railway-with-claude-codex-cursor-and-mor-20260409T173025.md",
+    "backend/cloud/cloud_orchestrator.py.new~clear",
     "config/gmail_config.json",
     "skills/gmail-watcher/references/gmail_config_schema.md",
     "skills/gmail-watcher/__init__.py",
@@ -188,10 +205,6 @@
     "skills/vault-manager/scripts/__pycache__/validate_frontmatter.cpython-313.pyc",
     "skills/vault-manager/scripts/__pycache__",
     "tests/__pycache__/test_validate_frontmatter.cpython-313-pytest-9.0.2.pyc",
-    "backend/utils/__pycache__/uuid_utils.cpython-313.pyc",
-    "backend/utils/__pycache__/timestamps.cpython-313.pyc",
-    "backend/utils/__pycache__/logging_utils.cpython-313.pyc",
-    "backend/utils/__pycache__/__init__.cpython-313.pyc",
     "vault/Plans/plan-test-approval-workflow-20250204T170500.md",
     "vault/Needs_Action/task-test-vault-manager-20250204T170000.md",
     "skills/vault-manager/tasks.md",

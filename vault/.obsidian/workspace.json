@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ffc886b53242ff98",
+        "id": "33d7cff0cf2780c5",
         "type": "tabs",
         "children": [
           {
-            "id": "3205a9d650945a20",
+            "id": "faebbd9395538078",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -70,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -174,11 +173,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3205a9d650945a20",
+  "active": "faebbd9395538078",
   "lastOpenFiles": [
+    "Approved/LINKEDIN_POST_2026-03-23.md",
+    "conflict-files-obsidian-git.md",
+    "Dashboard.md",
+    "Untitled.md",
     "Untitled.base",
     "Untitled.canvas",
     "2026-04-10.md",
@@ -190,7 +194,6 @@
     "Needs_Action/WHATSAPP_nazia-zong_20260403T005347.md",
     "Logs/debug_feed_after_post.png",
     "AI-Employee/2026-04-03.md",
-    "Dashboard.md",
     "AI-Employee/create a link.md",
     "AI-Employee/Untitled.canvas",
     "AI-Employee/Welcome.md",
@@ -212,12 +215,10 @@
     "Needs_Action/email-get-better-results-with-prompt-engineering-20260306T191351.md",
     "Needs_Action/email-railway-agent-skill-cli-dashboard-updates-docs-fee-20260306T191351.md",
     "Needs_Action/email-re-hello-20260306T191351.md",
-    "Approved/LINKEDIN_POST_2026-03-23.md",
     "Approved/LINKEDIN_POST_2026-03-20.md",
     "Briefings/2026-03-23_Monday_Briefing.md",
     "Pending_Approval/LINKEDIN_POST_2026-03-20.md",
     "Needs_Action/email-re-hello-urgent-message-20260306T191351.md",
-    "Needs_Action/email-deploy-to-railway-with-claude-codex-cursor-and-mor-20260306T191351.md",
     "Logs/actions/2026-02-19.json",
     "Logs/actions/2026-02-18.json",
     "Logs/actions/2026-02-17.json"
